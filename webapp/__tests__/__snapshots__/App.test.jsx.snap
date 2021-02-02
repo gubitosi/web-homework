@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  .emotion-0 {
+  background: #fff8d7;
+  padding: 20px 20px;
+  border-bottom: 1px solid #ddd;
+  color: #000;
+}
+
+.emotion-1 {
+  margin-top: -5px;
+  background: #fff;
+  border-radius: 100px;
+  border: 1px solid #000;
+}
+
+.emotion-2 {
+  color: #02306d;
+}
+
+.emotion-3 {
+  grid-row: 2;
+}
+
+<div>
+    <nav
+      className="navbar navbar-expand-lg navbar-light emotion-0"
+    >
+      <a
+        className="navbar-brand"
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="Divvy logo"
+          className="emotion-1"
+          src="//app.divvy.co/assets/icons/favicon.ico"
+          width="60px"
+        />
+      </a>
+      <button
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        className="navbar-toggler"
+        data-target="#navbarNavAltMarkup"
+        data-toggle="collapse"
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        className="collapse navbar-collapse"
+        id="navbarNavAltMarkup"
+      >
+        <div
+          className="navbar-nav"
+        />
+        <a
+          className="nav-item nav-link emotion-2"
+          href="/transactions"
+          onClick={[Function]}
+        >
+          Transactions
+        </a>
+      </div>
+    </nav>
+    <br />
+    <div
+      className="main-content emotion-3"
+    >
+      <div
+        className="text-center m-auto w-75"
+      >
+        <h4>
+          Welcome to my implementation of the 
+          <strong>
+            Divvy Coding Challenge
+          </strong>
+        </h4>
+        <br />
+        <p>
+          Thank you for taking the time to review this site, and for your consideration.
+        </p>
+      </div>
+    </div>
+  </div>,
+  <footer>
+    <br />
+  </footer>,
+]
+`;
+
+exports[`renders correctly 2`] = `
+<div
+  className="text-center m-auto w-75"
+>
+  <h4>
+    Welcome to my implementation of the 
+    <strong>
+      Divvy Coding Challenge
+    </strong>
+  </h4>
+  <br />
+  <p>
+    Thank you for taking the time to review this site, and for your consideration.
+  </p>
+</div>
+`;
