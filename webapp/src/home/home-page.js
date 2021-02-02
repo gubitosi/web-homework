@@ -1,10 +1,11 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
 export function Home () {
   return (
-    <Fragment>
-      {/* <Link to='/another'>Another route</Link> */}
-      <div>Ready, steady, go!</div>
-    </Fragment>
+    <div className='text-center m-auto w-75'>
+      <h4>Welcome to my implementation of the <strong>Divvy Coding Challenge</strong></h4>
+      <br />
+      <p>Thank you for taking the time to review this site, and for your consideration.</p>
+    </div>
   )
 }
